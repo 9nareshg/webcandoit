@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'OpenSans-Semibold';
+  src: url('../font/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg'),
+       url('../font/OpenSans-Semibold.ttf') format('truetype'),
+       url('../font/OpenSans-Semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'open-sans.semibold';
+  src: url('../font/open-sans.semibold.eot');
+  src: url('../font/open-sans.semibold.eot?#iefix') format('embedded-opentype'),
+       url('../font/open-sans.semibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muli-Regular';
+  src: url('../font/Muli-Regular.eot');
+  src: url('../font/Muli-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/Muli-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Muli';
+  src: url('../font/Muli.svg#Muli') format('svg'),
+       url('../font/Muli.ttf') format('truetype'),
+       url('../font/Muli.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../font/Montserrat-Medium.eot');
+  src: url('../font/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../font/Montserrat-Medium.svg#Montserrat-Medium') format('svg'),
+       url('../font/Montserrat-Medium.ttf') format('truetype'),
+       url('../font/Montserrat-Medium.woff') format('woff'),
+       url('../font/Montserrat-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}

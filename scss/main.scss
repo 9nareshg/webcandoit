@@ -1,4 +1,26 @@
-@import 'base/reset';
-@import 'abstracts/font';
-@import 'layout/header';
-@import 'layout/footer';
+@import 'base/_reset';
+@import 'abstracts/_font';
+@import 'abstracts/_variable';
+@import 'layout/_header';
+@import 'layout/_footer';
+
+
+.page-base{
+	position: relative;
+	width:calc(100% - 20px);
+	margin:auto;
+	
+	@media(min-width:1130px){
+		width:1110px;	
+	}
+}
+a{
+	color:$main-color;
+	text-decoration:none;
+	position:relative;
+}
+.content{
+	width:100%;
+	float:left;
+	height:2000px;
+}
