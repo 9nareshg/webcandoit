@@ -44,7 +44,7 @@ header{
 			    height: 7px;
 			    width: 7px;
 			    border-radius: 50%;
-			    background-color: $main-color;
+			    background-color: $dark;
 			}
 		}
 	}
@@ -64,7 +64,7 @@ header{
 			li{	
 	            display: inline-block;
 	            padding-bottom:8px;
-			    font: 10px Montserrat-Medium;
+			    font: 10px Montserrat-Medium;			    
 
 			    @media(min-width:900px){
 		    		font-size:12px;
@@ -81,20 +81,21 @@ header{
 				    	display:block;
 				    }
 				    li{
-				    	display:none;
-				    }
-				    &:hover li{
-				    	display: block;
-					    height: 285px;
+				    	visibility:hidden;
+					    height: 300px;
 					    width: 100%;
 					    position: absolute;
 					    left: 0;
-				        bottom: calc(100% - 319px);
+				        bottom: calc(100% - 334px);
 					    background-color: #FFF;
-				        box-shadow: 0 0 5px rgba(0,0,0,0.22);
+			            box-shadow: 0 3px 8px rgba(0,0,0,0.22);
 					    margin: 0;
 					    padding: 0;
-					    z-index: 1;
+					    z-index: 2;
+				    }
+				    &:hover li{
+				    	visibility:visible;
+					    transition-delay:0.4s;
 				    }
 				    &:hover a:after{
 			    	    content: '';
@@ -104,10 +105,8 @@ header{
 					    left: calc(50% - 4px);
 					    top: 19px;
 					    transform: rotate(45deg);
-					    background-color: #fff;
-					    border: solid #291632;
+					    border: solid $dark;
 					    border-width: 0 2px 2px 0;
-					    z-index: 2;
 				    }
 			    }
 			}
@@ -160,7 +159,7 @@ header{
 			div{
 				height:3px;
 				margin-top:4px;
-				background-color:$main-color;
+				background-color:$dark;
 
 				&:nth-child(1){
 					width:40%;

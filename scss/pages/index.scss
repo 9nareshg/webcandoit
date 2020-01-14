@@ -1,0 +1,62 @@
+@import 'abstracts/_variable';
+
+.banner{
+	float:left;
+	width:100%;
+	overflow:hidden;
+    white-space: nowrap;
+
+	.slick-arrow{
+	    content: '';
+	    height: 76px;
+	    width: 37px;
+	    background-color: $dark;
+	    position: absolute;
+	    top: calc((100% - 76px) / 2);
+	    z-index: 1;
+	    cursor:pointer;
+
+	    span{
+    	    height: 10px;
+		    width: 10px;
+		    border: solid #fff;
+		    transform: rotate(45deg);			    
+		    display: block;
+		    margin: calc(100% - 6px) auto;
+	    }
+	}
+	.prev-arrow{
+	    left: 0;
+	    border-radius: 0 4px 4px 0;
+	}
+	.next-arrow{
+		right:0;
+		border-radius: 4px 0 0 4px;
+	}
+	img{
+		width:100%;
+		cursor: grab;
+	}
+}
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 10px 0;
+
+		li {
+		    margin: 0 5px;
+		}
+		button {
+		    width: 8px;
+		    height: 8px;
+		    padding: 0;
+		    border: none;
+		    border-radius: 100%;
+		    background-color: #0000ff;
+		    text-indent: -9999px;
+		}
+		li.slick-active button {
+			background-color: #ff0000;
+		}
+}

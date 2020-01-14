@@ -36,7 +36,7 @@
 						<li></li>
 					</ul>	
 				</li>
-				<li><a href="#">Showroom Site</a>
+				<li><a href="#">Showroom</a>
 					<ul>
 						<li></li>
 					</ul>
@@ -46,12 +46,12 @@
 						<li></li>
 					</ul>
 				</li>
-				<li><a href="#">Gym</a>
+				<li><a href="#">Hotel</a>
 					<ul>
 						<li></li>
 					</ul>
 				</li>
-				<li><a href="#">Yoga</a>
+				<li><a href="#">Fitness Center</a>
 					<ul>
 						<li></li>
 					</ul>
@@ -66,7 +66,7 @@
 						<li></li>
 					</ul>
 				</li>
-				<li><a href="#">Online store</a>
+				<li><a href="#">Interior Designer</a>
 					<ul>
 						<li></li>
 					</ul>
