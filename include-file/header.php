@@ -26,61 +26,17 @@
 	<nav>
 		<div class="page-base">
 			<ul>
-				<li><a href="#">Restaurant</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
-				<li><a href="#">School & College</a>
-					<ul>
-						<li></li>
-					</ul>	
-				</li>
-				<li><a href="#">Showroom</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
-				<li><a href="#">Real State</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
-				<li><a href="#">Hotel</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
-				<li><a href="#">Fitness Center</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
-				<li><a href="#">Ngo</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
-				<li><a href="#">Travel</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
-				<li><a href="#">Interior Designer</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
-				<li><a href="#">Finanace & Law</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
-				<li><a href="#">All Types</a>
-					<ul>
-						<li></li>
-					</ul>
-				</li>
+				<li><a href="#">Restaurant</a></li>
+				<li><a href="#">School & College</a></li>
+				<li><a href="#">Showroom</a></li>
+				<li><a href="#">Real State</a></li>
+				<li><a href="#">Hotel</a></li>
+				<li><a href="#">Fitness Center</a></li>
+				<li><a href="#">Ngo</a></li>
+				<li><a href="#">Travel</a></li>
+				<li><a href="#">Interior Designer</a></li>
+				<li><a href="#">Finanace & Law</a></li>
+				<li><a href="#">All Types</a></li>
 			</ul>
 		</div>
 	</nav>

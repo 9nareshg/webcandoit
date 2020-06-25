@@ -97,17 +97,6 @@ header{
 				    	visibility:visible;
 					    transition-delay:0.4s;
 				    }
-				    &:hover a:after{
-			    	    content: '';
-					    height: 5px;
-					    width: 5px;
-					    position: absolute;
-					    left: calc(50% - 4px);
-					    top: 19px;
-					    transform: rotate(45deg);
-					    border: solid $dark;
-					    border-width: 0 2px 2px 0;
-				    }
 			    }
 			}
 		}

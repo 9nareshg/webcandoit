@@ -26,9 +26,7 @@
 				<img src="https://dummyimage.com/1110x430/f2e707/171717">
 				<img src="https://dummyimage.com/1110x430/f2e707/171717">
 			</div>
-			<!-- banner section ends-->
-
-			
+			<!-- banner section ends-->			
 		</div>
 	</div>
 
