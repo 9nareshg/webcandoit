@@ -44,7 +44,7 @@ header{
 			    height: 7px;
 			    width: 7px;
 			    border-radius: 50%;
-			    background-color: $dark;
+			    background-color: #291632;
 			}
 		}
 	}
@@ -63,40 +63,12 @@ header{
 			}
 			li{	
 	            display: inline-block;
-	            padding-bottom:8px;
-			    font: 10px Montserrat-Medium;			    
+	            padding-bottom:15px;
+			    font: 10px Montserrat-Medium;
+			    transform: scaleY(1.2);		    
 
-			    @media(min-width:900px){
+			    @media(min-width:901px){
 		    		font-size:12px;
-			    }
-
-			    ul{
-			    	display:none;
-			    }
-			    @media(min-width:1130px){
-			        padding-bottom:18px;
-				    font-size: 13px;
-			    	
-			    	ul{
-				    	display:block;
-				    }
-				    li{
-				    	visibility:hidden;
-					    height: 300px;
-					    width: 100%;
-					    position: absolute;
-					    left: 0;
-				        bottom: calc(100% - 334px);
-					    background-color: #FFF;
-			            box-shadow: 0 3px 8px rgba(0,0,0,0.22);
-					    margin: 0;
-					    padding: 0;
-					    z-index: 2;
-				    }
-				    &:hover li{
-				    	visibility:visible;
-					    transition-delay:0.4s;
-				    }
 			    }
 			}
 		}
@@ -148,7 +120,7 @@ header{
 			div{
 				height:3px;
 				margin-top:4px;
-				background-color:$dark;
+				background-color:#291632;
 
 				&:nth-child(1){
 					width:40%;

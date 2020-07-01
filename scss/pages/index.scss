@@ -1,4 +1,4 @@
-@import 'abstracts/_variable';
+@import 'layout/_contact';
 
 .banner{
 	float:left;
@@ -10,7 +10,7 @@
 	    content: '';
 	    height: 76px;
 	    width: 37px;
-	    background-color: $dark;
+	    background-color: #291632;
 	    position: absolute;
 	    top: calc((100% - 76px) / 2);
 	    z-index: 1;
@@ -38,25 +38,208 @@
 		cursor: grab;
 	}
 }
-.slick-dots {
-	display: flex;
-	justify-content: center;
-	margin: 0;
-	padding: 10px 0;
+.introduction{
+	float:left;
+	width: 100%;
+	height:195px;
+	background-image:url('../../img/waveline.png'),url('../../img/selfcrop.png');
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	position:relative;
+	margin-top:0;
 
-		li {
-		    margin: 0 5px;
+	@media(min-width:381px){
+		height:275px;
+	}
+	@media(min-width:551px){
+		margin-top:30px;
+		height:300px;
+	}
+	@media(min-width:769px){
+		margin-top:80px;
+	}
+
+	div{
+	    font-family: 'open-sans.semibold';
+	    position: absolute;
+	    right: 28%;
+	    top: 35px;
+	    text-align: right;
+	    height: 80px;
+    	width:221px;
+
+    	@media(min-width:381px){
+	    	top: 81px;
+	    	width:265px;
+    	}
+    	@media(min-width:451px){
+	    	top: 64px;
+    		height: 110px;
+    		width:300px;
+    	}
+    	@media(min-width:551px){
+    		width:415px;
+	    	top: 51px;
+	    	right: 30%;
+    	}
+    	@media(min-width:769px){
+		    right: 37%;
+    	}
+	}
+	span:first-child{
+	    font-size: 11px;
+
+    	@media(min-width:451px){
+		    font-size: 12px;
+    	}
+    	@media(min-width:551px){
+	    	font-size: 14px;
+    	}
+	    @media(min-width:769px){
+	    	font-size: 16px;
+    	}
+	}
+	span:last-child{
+	    font-size: 6px;
+
+    	@media(min-width:451px){
+		    font-size: 7px;
+    	}
+    	@media(min-width:551px){
+	    	font-size: 9px;
+    	}
+	    @media(min-width:769px){
+	    	font-size: 10px;
+    	}
+	}
+	h2:first-child{
+	    position: absolute;
+	    right: 0;
+	}
+	h2:last-child{
+	    position: absolute;
+	    right: 15px;
+	    top: 20px;
+
+	    @media(min-width:451px){
+	    	top: 33px;
+	    }
+	}
+	h3:first-child{
+	    position: absolute;
+	    right: 28px;
+	    top: 55px;
+
+	    @media(min-width:451px){
+	    	top: 70px;
+	    }
+	}
+	h3:last-child{
+	    position: absolute;
+	    right: 36px;
+	    top: 65px;
+
+	    @media(min-width:451px){
+	    	top: 85px;
+	    }
+	}
+}
+.qna{
+	float:left;
+	width:100%;
+	font-family:Montserrat-Medium;
+
+	h2{
+	    text-align: center;
+    	font-size: 13px;
+	    margin: 40px 0 15px;
+	    font-weight:bold;
+	    float: left;
+	    width: 100%;
+
+	    @media(min-width:551px){
+	    	margin: 70px 0 40px;
+	    	font-weight:normal;
+	    }
+	    @media(min-width:769px){
+    		font-size: 15px;
+		    margin: 70px 0 50px;
+	    }
+	    @media(min-width:901px){
+    		font-size: 17px;
+	    	margin: 80px 0 60px;
+	    }
+	}
+	div{
+		float:left;
+		width:100%;
+
+		.content-sec{
+			float:left;
+			width:100%;
+
+			@media(min-width:551px){
+				width:47%;
+			}
+			@media(min-width:769px){
+				width:50%;
+			}
+
+			h3{
+				margin-bottom: 30px;
+    			line-height: 25px;
+
+    			@media(max-width:900px){
+    				font-size:12px;
+    				line-height: 21px;
+    			}
+    			@media(max-width:768px){
+    				font-size:10px;
+					margin-bottom: 20px;
+    				line-height: 18px;
+    			}
+    			@media(max-width:650px){
+    				font-size:9px;
+					margin-bottom: 15px;
+    				line-height: 16px;
+    			}
+    			@media(max-width:550px){
+    				font-size:11px;
+				    line-height: 17px;
+    			}
+			}
+			a{
+				float:left;
+				padding:6px;
+			    border: 1px solid #000;
+			    font-size: 10px;
+
+			    @media(max-width:550px){
+			    	margin-bottom:10px;
+			    }
+			    @media(min-width:769px){
+			    	font-size: 11px;
+			    }
+			    @media(min-width:901px){
+			    	font-size: 13px;
+					padding:8px;
+			    }
+			    img{
+			    	width:auto;
+			    }
+			}
 		}
-		button {
-		    width: 8px;
-		    height: 8px;
-		    padding: 0;
-		    border: none;
-		    border-radius: 100%;
-		    background-color: #0000ff;
-		    text-indent: -9999px;
+		.slide-sec{
+			float:left;
+			width:100%;
+
+			@media(min-width:551px){
+				width:53%;
+			}
+			@media(min-width:769px){
+				width:50%;
+			}
 		}
-		li.slick-active button {
-			background-color: #ff0000;
-		}
+	}
 }

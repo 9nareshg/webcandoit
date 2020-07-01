@@ -7,7 +7,7 @@
 		</span>
 		<ul class="main-nav" style="float: left;margin-left: 90px;">
 			<li class="active"><a href="#">HOME</a></li>
-			<li><a href="#">WEB DESIGN SERVICES</a></li>
+			<li><a href="#">WEB DESIGN SERVICE</a></li>
 		</ul>
 		<div class="logo">
 			<img src="img/logo.jpg">
@@ -34,15 +34,15 @@
 				<li><a href="#">Fitness Center</a></li>
 				<li><a href="#">Ngo</a></li>
 				<li><a href="#">Travel</a></li>
+				<li><a href="#">Supply Chain</a></li>
 				<li><a href="#">Interior Designer</a></li>
-				<li><a href="#">Finanace & Law</a></li>
-				<li><a href="#">All Types</a></li>
+				<li><a href="#">Architecture</a></li>
 			</ul>
 		</div>
 	</nav>
 	<ul class="mobile-nav">
 		<li>Home</li>
-		<li>Web Design services</li>
+		<li>Web Design service</li>
 		<li>pricing</li>
 		<li>Portfolio</li>
 	</ul>

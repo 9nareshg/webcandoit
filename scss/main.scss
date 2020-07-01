@@ -1,10 +1,13 @@
 @import 'base/_reset';
 @import 'abstracts/_font';
-@import 'abstracts/_variable';
 @import 'layout/_header';
 @import 'layout/_footer';
 
 
+.content{
+	width:100%;
+	float:left;
+}
 .page-base{
 	position: relative;
 	width:calc(100% - 20px);
@@ -15,12 +18,11 @@
 	}
 }
 a{
-	color:$dark;
+	color:#291632;
 	text-decoration:none;
 	position:relative;
 }
-.content{
+img{
 	width:100%;
-	float:left;
-	height:2000px;
+    vertical-align: middle;
 }
