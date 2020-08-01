@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>HOME</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
@@ -25,16 +24,12 @@
 
 			<!-- introduction section starts -->
 			<div class="introduction">
-				<div>
-					<span>
-						<h2>Hey, I'm NARESH SUTHAR</h2>
-						<h2>I'll build you a custom website</h2>
-					</span>
-					<span>
-						<h3>I am experienced and passionate web designer,</h3>
-						<h3>having specialization in building website for small & medium sized businesses</h3>
-					</span>
-				</div>
+				<div class="name">Hey, I'm Naresh Suthar</div>
+				<div class="b-title">I'll help you build a custom website.</div>
+				<div class="s-title">I am experienced and passionate web designer,</div>
+				<div class="s-title">having specialization in building website for small & medium sized businesses.</div>
+				<a href="#">Know more</a>
+				<a href="#">Contact me</a>
 			</div>
 			<!-- introduction section ends -->
 
@@ -43,7 +38,7 @@
 				<h2>#1. why you need website for your small business ?</h2>
 				<div>
 					<div class="content-sec">
-						<h3>
+						<h3 class="animatethis">
 <pre>If you have restaurent, school, college,
 showroom, gym, hotel or if you are 
 interior designer, architect, builder or 
@@ -58,15 +53,19 @@ it makes you look professional.</pre>
 					</div>
 					<div class="slide-sec">
 						<img src="https://dummyimage.com/555x300/cee619/000000">
+						<img src="https://dummyimage.com/555x300/368210/000000">
+						<img src="https://dummyimage.com/555x300/0d2e63/000000">
 					</div>
 				</div>
 				<h2>#2. why you should choose me ?</h2>
 				<div>
 					<div class="slide-sec">
 						<img src="https://dummyimage.com/555x300/cee619/000000">
+						<img src="https://dummyimage.com/555x300/368210/000000">
+						<img src="https://dummyimage.com/555x300/0d2e63/000000">
 					</div>
 					<div class="content-sec">
-						<h3>
+						<h3 class="animatethis">
 <pre dir="rtl">having a good website for small businesses
 is very expensive in today's market
 
@@ -80,7 +79,7 @@ as well as good quality</pre>
 				<h2>#3. what you get extra here ?</h2>
 				<div>
 					<div class="content-sec">
-						<h3>
+						<h3 class="animatethis">
 <pre>website isn't everything, you need to reach
 all that platform in order to get potential
 client/customer.
@@ -94,11 +93,12 @@ business.</pre>
 					</div>
 					<div class="slide-sec">
 						<img src="https://dummyimage.com/555x300/cee619/000000">
+						<img src="https://dummyimage.com/555x300/368210/000000">
+						<img src="https://dummyimage.com/555x300/0d2e63/000000">
 					</div>
 				</div>
 			</div>
-			<!-- q&a section ends -->
-
+			<!-- q&a section ends -->			
 		</div>
 	</div>
 	<!-- contact -->
@@ -108,7 +108,6 @@ business.</pre>
 	<?php include("include-file/footer.php") ?>
 
 	<!-- slick slider -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script>
 		//banner sec
@@ -124,8 +123,13 @@ business.</pre>
 		      		}
 		      	}
 	      	]
-      	});
-  	</script>
-  	<script src="js/common.js"></script>
+	  	});
+	  	
+	  	//Q&A sec
+	  	$('.slide-sec').slick({
+	  		autoplay:true,
+				arrows: false
+	  	});
+	</script>
 </body>
 </html>

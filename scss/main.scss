@@ -23,6 +23,20 @@ a{
 	position:relative;
 }
 img{
-	width:100%;
     vertical-align: middle;
+}
+::placeholder {
+    font-family: Montserrat-Medium;
+}
+.blur{
+    position:fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color:rgba(0, 0, 0, 0.67);
+    z-index:99;
+    pointer-events: none;
+    transition:0.3s;
+    opacity:0;
 }
